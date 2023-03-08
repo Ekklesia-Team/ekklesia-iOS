@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7BE92FB4B45F06ED5168EAE /* Pods_Ekklesia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0ED2D5F2BDD4AAF0BFE14E /* Pods_Ekklesia.framework */; };
 		F408E5C429B33251000B8712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408E5C329B33251000B8712 /* AppDelegate.swift */; };
 		F408E5C629B33251000B8712 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408E5C529B33251000B8712 /* SceneDelegate.swift */; };
-		F408E5C829B33251000B8712 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408E5C729B33251000B8712 /* ViewController.swift */; };
-		F408E5CB29B33251000B8712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F408E5C929B33251000B8712 /* Main.storyboard */; };
+		F408E5C829B33251000B8712 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408E5C729B33251000B8712 /* HomeViewController.swift */; };
 		F408E5CD29B33252000B8712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F408E5CC29B33252000B8712 /* Assets.xcassets */; };
 		F408E5D029B33252000B8712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F408E5CE29B33252000B8712 /* LaunchScreen.storyboard */; };
+		F408E5D829B8BF39000B8712 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408E5D729B8BF38000B8712 /* MainTabViewController.swift */; };
+		F408E5E029B8C35F000B8712 /* BibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408E5DF29B8C35F000B8712 /* BibleViewController.swift */; };
+		F408E5E229B8C3C6000B8712 /* ImageSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408E5E129B8C3C6000B8712 /* ImageSelectorViewController.swift */; };
+		F408E5E429B8C4EA000B8712 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408E5E329B8C4EA000B8712 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E0ED2D5F2BDD4AAF0BFE14E /* Pods_Ekklesia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ekklesia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91E2130655E19745FC2239C /* Pods-Ekklesia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ekklesia.release.xcconfig"; path = "Target Support Files/Pods-Ekklesia/Pods-Ekklesia.release.xcconfig"; sourceTree = "<group>"; };
 		F408E5C029B33251000B8712 /* Ekklesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ekklesia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F408E5C329B33251000B8712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F408E5C529B33251000B8712 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F408E5C729B33251000B8712 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F408E5CA29B33251000B8712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F408E5C729B33251000B8712 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F408E5CC29B33252000B8712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F408E5CF29B33252000B8712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F408E5D129B33252000B8712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F408E5D729B8BF38000B8712 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		F408E5DF29B8C35F000B8712 /* BibleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleViewController.swift; sourceTree = "<group>"; };
+		F408E5E129B8C3C6000B8712 /* ImageSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorViewController.swift; sourceTree = "<group>"; };
+		F408E5E329B8C4EA000B8712 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FFFA6B13B58FA4FF75CF25FE /* Pods-Ekklesia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ekklesia.debug.xcconfig"; path = "Target Support Files/Pods-Ekklesia/Pods-Ekklesia.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7BE92FB4B45F06ED5168EAE /* Pods_Ekklesia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5077243C5D2CF451594A0C36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA6B13B58FA4FF75CF25FE /* Pods-Ekklesia.debug.xcconfig */,
+				E91E2130655E19745FC2239C /* Pods-Ekklesia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4E7BA37D50844D1F65A9BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E0ED2D5F2BDD4AAF0BFE14E /* Pods_Ekklesia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F408E5B729B33251000B8712 = {
 			isa = PBXGroup;
 			children = (
 				F408E5C229B33251000B8712 /* Ekklesia */,
 				F408E5C129B33251000B8712 /* Products */,
+				5077243C5D2CF451594A0C36 /* Pods */,
+				C4E7BA37D50844D1F65A9BDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,66 @@
 		F408E5C229B33251000B8712 /* Ekklesia */ = {
 			isa = PBXGroup;
 			children = (
+				F408E5DE29B8C16C000B8712 /* Repositories */,
+				F408E5DD29B8C165000B8712 /* Services */,
+				F408E5DC29B8C15C000B8712 /* ViewModels */,
+				F408E5DB29B8C149000B8712 /* ViewControllers */,
+				F408E5DA29B8C13A000B8712 /* Views */,
+				F408E5D929B8C130000B8712 /* Models */,
 				F408E5C329B33251000B8712 /* AppDelegate.swift */,
 				F408E5C529B33251000B8712 /* SceneDelegate.swift */,
-				F408E5C729B33251000B8712 /* ViewController.swift */,
-				F408E5C929B33251000B8712 /* Main.storyboard */,
 				F408E5CC29B33252000B8712 /* Assets.xcassets */,
 				F408E5CE29B33252000B8712 /* LaunchScreen.storyboard */,
 				F408E5D129B33252000B8712 /* Info.plist */,
 			);
 			path = Ekklesia;
+			sourceTree = "<group>";
+		};
+		F408E5D929B8C130000B8712 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F408E5DA29B8C13A000B8712 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F408E5DB29B8C149000B8712 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F408E5C729B33251000B8712 /* HomeViewController.swift */,
+				F408E5D729B8BF38000B8712 /* MainTabViewController.swift */,
+				F408E5DF29B8C35F000B8712 /* BibleViewController.swift */,
+				F408E5E129B8C3C6000B8712 /* ImageSelectorViewController.swift */,
+				F408E5E329B8C4EA000B8712 /* ProfileViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F408E5DC29B8C15C000B8712 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F408E5DD29B8C165000B8712 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F408E5DE29B8C16C000B8712 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F408E5D429B33252000B8712 /* Build configuration list for PBXNativeTarget "Ekklesia" */;
 			buildPhases = (
+				B88323F9F9EEB7A98C7C9BE6 /* [CP] Check Pods Manifest.lock */,
 				F408E5BC29B33251000B8712 /* Sources */,
 				F408E5BD29B33251000B8712 /* Frameworks */,
 				F408E5BE29B33251000B8712 /* Resources */,
+				758279DF28853A9376C652C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +210,71 @@
 			files = (
 				F408E5D029B33252000B8712 /* LaunchScreen.storyboard in Resources */,
 				F408E5CD29B33252000B8712 /* Assets.xcassets in Resources */,
-				F408E5CB29B33251000B8712 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		758279DF28853A9376C652C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ekklesia/Pods-Ekklesia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ekklesia/Pods-Ekklesia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ekklesia/Pods-Ekklesia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B88323F9F9EEB7A98C7C9BE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ekklesia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F408E5BC29B33251000B8712 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F408E5C829B33251000B8712 /* ViewController.swift in Sources */,
+				F408E5C829B33251000B8712 /* HomeViewController.swift in Sources */,
+				F408E5D829B8BF39000B8712 /* MainTabViewController.swift in Sources */,
 				F408E5C429B33251000B8712 /* AppDelegate.swift in Sources */,
 				F408E5C629B33251000B8712 /* SceneDelegate.swift in Sources */,
+				F408E5E429B8C4EA000B8712 /* ProfileViewController.swift in Sources */,
+				F408E5E029B8C35F000B8712 /* BibleViewController.swift in Sources */,
+				F408E5E229B8C3C6000B8712 /* ImageSelectorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F408E5C929B33251000B8712 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F408E5CA29B33251000B8712 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F408E5CE29B33252000B8712 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +402,7 @@
 		};
 		F408E5D529B33252000B8712 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFA6B13B58FA4FF75CF25FE /* Pods-Ekklesia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +413,9 @@
 				INFOPLIST_FILE = Ekklesia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +431,7 @@
 		};
 		F408E5D629B33252000B8712 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E91E2130655E19745FC2239C /* Pods-Ekklesia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +442,9 @@
 				INFOPLIST_FILE = Ekklesia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
